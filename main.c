@@ -24,7 +24,7 @@ struct transaction * transact; // gets allocated and enlarged
 struct transaction * transactptr; // to manipulate transact
 double average;
 double total;
-char floatbuffer[NAMEBUFFERSIZE]; // comma to period replacement buffer
+char floatbuffer[AMOUNTBUFFERSIZE]; // comma to period replacement buffer
 int perscount; // number of persons
 int getcount = 0; // elements in get[]
 int givecount = 0; // elements in give[]
